@@ -27,3 +27,30 @@ const wordArray = word.split('').join('');
 
 palChecker('mom'); //yes
 palChecker('monkeybutt'); //no
+
+
+//end palChecker challenge
+
+let animals = ['spiders', 'snakes', 'gophers', 'big spiders'];
+
+const lastItem = animals.pop(); //removes last item: big spiders
+const firstItem = animals.shift(); //removes first item: spiders
+animals.push('bat');//add to end
+animals.unshift('baby hippo');//add to beginning
+console.log('animals', animals);
+
+
+//For loops
+//1. what is your starting value? Usually 0
+//2. what is your stopping value? usually something.length(because it's usually an array); mostly conditional statements
+//3. how are you incrementing? - usually +1
+
+// for(starting;stopping;increment){ 
+    // do something here
+// }
+
+//Example
+
+for(let i = 0; i < animals.length; i ++) {  //
+    console.log(animals[i]);
+}
